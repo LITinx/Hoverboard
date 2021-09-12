@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 350px;
+}
+.square {
+  width: 16px;
+  height: 16px;
+  background: #1d1d1d;
+  margin: 2px;
+  box-shadow: 0 0 2px #000;
+  transition: 2.6s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
+.page-title {
+  position: absolute;
+  color: aliceblue;
+  font-size: 50px;
+  user-select: none;k
+  font-family: 'Urbanist', sans-serif;
+  margin-left: 20px;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+}
+.colors {
+  position: absolute;
+  left: 0;
+  margin-left: 70px;
+}
+.green {
+  width: 20px;
+  margin-top: 5px;
+
+  height: 20px;
+  background: #00ff9f;
+}
+.white-blue {
+  width: 20px;
+  margin-top: 5px;
+
+  height: 20px;
+  background: #00b8ff;
+}
+.blue {
+  width: 20px;
+  margin-top: 5px;
+
+  height: 20px;
+  background: #001eff;
+}
+.dark-purple {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+
+  background: #bd00ff;
+}
+.purple {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  background: #d600ff;
+}
